@@ -1,5 +1,13 @@
+@import url(http://fonts.googleapis.com/earlyaccess/alefhebrew.css);
+
 body {
-/*  background-color: red;*/
+  font-family:  "Alef Hebrew", sans-serif;
+  color: #234c99;
+  margin: 0 auto;
+}
+header {
+  width: 650px;
+  margin: 0 auto;
 }
 
 .blue_background {
@@ -8,4 +16,30 @@ body {
 
 .center {
   text-align: center;
+}
+
+.top {
+  border: 3px solid #234c99;
+  display: inline-block;
+  margin: 20px 250px 0 ;
+}
+
+.litle_top {
+  margin-top: 0;
+  letter-spacing: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  border-radius: 10%;
+  margin-right: 20px;
+  padding: 1px 2px;
+}
+
+li:hover {
+  border-bottom: 1px solid #234c99;
 }
