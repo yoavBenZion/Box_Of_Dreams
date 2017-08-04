@@ -136,7 +136,7 @@ img {
     height: 700px;
     position: relative;
     top: -420px;
-    right: 0;
+    right: -10px;
     width: 900px;
     margin: 0 auto;
     -webkit-animation: example 1s linear 0s infinite;
