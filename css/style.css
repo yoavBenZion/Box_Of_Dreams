@@ -42,3 +42,147 @@ li {
 li:hover {
   border-bottom: 1px solid #234c99;
 }
+
+
+
+/*SACHAR*/
+
+.bckgrnd{
+  width: 520px;
+/*  height: 640px;*/
+  background-color: #dbedf9;
+  margin:0 auto;
+  text-align: center;
+}
+.boxa{
+  width: 182px;
+  height: 57px;
+  background-color: #ffffff;
+  border: solid 2px #55b3f2;
+  margin:0px auto;
+}
+.soFar1{
+  width: 42px;
+  height: 55px;
+  background-color: #55b3f2;
+    display: inline-block;
+    margin: 0.5px 1.px;
+}
+.soFar2{
+  width: 42px;
+  height: 55px;
+  background-color: #47b3a8;
+    display: inline-block;
+}
+.soFar3{
+  width: 42px;
+  height: 55px;
+  background-color: #f59b32;
+    display: inline-block;
+    
+}
+.soFar4{
+  width: 42px;
+  height: 55px;
+  background-color: #e65c5c;
+    display: inline-block;
+}
+.num{
+  width: 15px;
+  height: 37px;
+  font-family: DIN;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 1.5;
+  letter-spacing: 2.0px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0 0;
+    
+}
+
+
+/*NAVE*/
+
+
+@-webkit-keyframes example {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes example {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.nave {
+    height: 700px;
+    position: relative;
+    top: -420px;
+    right: -130px;
+    width: 900px;
+    margin: 0 auto;
+    -webkit-animation: example 1s linear 0s infinite;
+    animation: example 6s linear 0s infinite;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+}
+
+.a {
+    position: absolute;
+    top: 200px;
+    right: 220px;
+}
+
+.b {
+    position: absolute;
+    top: 350px;
+    right: 170px;
+}
+
+.c {
+    position: absolute;
+    top: 450px;
+    right: 300px;
+}
+
+.d {
+    position: absolute;
+    top: 460px;
+    right: 450px;
+}
+
+.e {
+    position: absolute;
+    top: 370px;
+    right: 550px;
+}
+
+.f {
+    position: absolute;
+    top: 230px;
+    right: 550px;
+}
+
+.g {
+    position: absolute;
+    top: 150px;
+    right: 400px;
+}
